@@ -1,0 +1,52 @@
+.theme-color{
+  background-color: #ff9800 !important;
+}
+
+.no-outline-when-over:hover{
+  outline: none !important;
+  border-color: none !important;
+  border: none !important;
+}
+
+
+.full-flex-grow{
+  flex-grow: 1
+}
+
+.max-width-form{
+  max-width: 600px;
+}
+
+.btn-search{
+  border: 2px solid #ff9800 !important;
+  border-radius: 10px !important;
+
+  background-color: white !important;
+  color: black !important
+}
+
+.btn-search:hover{
+  border: 2px solid white !important;
+  background-color: #ff9800 !important;
+  color: white !important
+}
+
+.image-wrapper{
+  width: 150px;
+  height: 150px;
+}
+
+
+.image-wrapper img{
+  max-width: 100%;
+  max-height: 100%;
+  min-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+}
+
+.card-custom{
+  border-radius: 5px;
+  padding: 5px;
+  border:1px solid rgba(0,0,0,.125);
+}
